@@ -179,6 +179,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 WITH_GMS_FI := true
 
+# Framework Detect
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
