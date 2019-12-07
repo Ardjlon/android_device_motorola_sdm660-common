@@ -42,9 +42,17 @@ on init
     setprop ro.vendor.hw.hwrev 99999
     setprop ro.vendor.boot.hwrev 99999
 
+# NFC 
+on init && property:ro.boot.radio=APAC
+    setprop ro.boot.product.hardware.sku n
+
+on init && property:ro.boot.radio=EMEA
+    setprop ro.boot.product.hardware.sku n
+
 # Translate MMI property in order to keep consistent with QCOM
 on property:ro.vendor.hw.dualsim=true
     setprop persist.radio.multisim.config dsds
 
 on property:ro.vendor.hw.dualsim=false
     setprop persist.radio.multisim.config ""
+

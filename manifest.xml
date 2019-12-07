@@ -177,15 +177,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>INfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
         <version>1.1</version>
@@ -202,6 +193,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.radio.config</name>
+        <name>com.fingerprints.extension</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
