@@ -246,3 +246,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# ADB/Boot-time Debug
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.adb_early=1
