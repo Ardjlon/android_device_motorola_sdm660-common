@@ -96,6 +96,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.aux.packagelist="org.codeaurora.snapcam,com.motorola.camera2,com.motorola.motocit,com.qualcomm.saltproject2" \
     persist.vendor.camera.expose.aux=1 \
     vidc.enc.dcvs.extra-buff-count=2 \
     persist.vendor.camera.preview.ubwc=0 \
