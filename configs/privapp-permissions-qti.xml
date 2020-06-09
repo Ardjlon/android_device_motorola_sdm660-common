@@ -114,7 +114,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.VIBRATE" />
     </privapp-permissions>
 
-<privapp-permissions package="com.moto.actions">
+    <privapp-permissions package="com.moto.actions">
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
     </privapp-permissions>
 </permissions>
