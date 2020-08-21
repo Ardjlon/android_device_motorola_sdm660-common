@@ -462,6 +462,7 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wificond \
     wifilogd \
+    TetheringConfigOverlay \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
