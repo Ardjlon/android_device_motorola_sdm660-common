@@ -306,6 +306,11 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.postproc@1.0.so
+vendor/etc/permissions/android.hardware.vulkan.compute.xml
+vendor/etc/permissions/android.hardware.vulkan.level.xml
+vendor/etc/permissions/android.hardware.vulkan.version.xml
+vendor/etc/permissions/android.software.vulkan.deqp.level.xml
+vendor/etc/permissions/android.hardware.opengles.aep.xml
 
 # Graphics - HDR
 vendor/lib/libhdr_tm.so
