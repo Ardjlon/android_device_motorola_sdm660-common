@@ -256,3 +256,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # ADB/Boot-time Debug
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.adb_early=1
+
+# NavBar
+PRODUCT_PROPERTY_OVERRIDES += \
+qemu.hw.mainkeys=0
