@@ -260,3 +260,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # NavBar
 PRODUCT_PROPERTY_OVERRIDES += \
 qemu.hw.mainkeys=0
+
+# disable PQ feature by default
+vendor.vidc.enc.disable.pq=true
+
+# Additional buffers shared between Camera and Video
+vidc.enc.dcvs.extra-buff-count=2
+
+#Expose aux camera HAL1 for below packages
+vendor.camera.aux.packagelist=org.codeaurora.snapc am,com.android.camera
