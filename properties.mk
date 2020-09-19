@@ -269,3 +269,9 @@ vidc.enc.dcvs.extra-buff-count=2
 
 #Expose aux camera HAL1 for below packages
 vendor.camera.aux.packagelist=org.codeaurora.snapc am,com.android.camera
+
+# Radio Options
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.rat_on=combine \
+    persist.radio.data_ltd_sys_ind=1 \
+    persist.radio.data_con_rprt=1
