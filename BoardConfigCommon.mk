@@ -95,6 +95,9 @@ TARGET_USES_ION := true
 TARGET_USES_HWC2 := true
 TARGET_USES_GRALLOC1 := true
 
+# Display - SurfaceFlinger
+TARGET_USES_AOSP_SURFACEFLINGER := true
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
@@ -184,7 +187,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /mnt/vendor/persist:/persist
 
 # Vendor Security Patch Level
-VENDOR_SECURITY_PATCH := 2019-11-01
+VENDOR_SECURITY_PATCH := 2020-09-05
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
