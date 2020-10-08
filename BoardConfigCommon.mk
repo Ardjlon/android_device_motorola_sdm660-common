@@ -82,7 +82,7 @@ USE_CAMERA_STUB := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Charger
-WITH_LINEAGE_CHARGER := false
+#WITH_LINEAGE_CHARGER := false
 
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
