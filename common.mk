@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
     libbson.vendor \
     libxml2
 
+# Moto Camera 2
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 ifneq ($(TARGET_SHIPS_MOTCAMERA), true)
 PRODUCT_PACKAGES += \
     Snap
