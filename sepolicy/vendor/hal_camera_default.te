@@ -14,3 +14,4 @@ get_prop(hal_camera_default, camera_prop)
 get_prop(hal_camera_default, boot_status_prop)
 dontaudit hal_camera_default persist_debug_prop:file read;
 dontaudit hal_camera_default radio_prop:file read;
+allow hal_camera_default sysfs_healthd:file { read };

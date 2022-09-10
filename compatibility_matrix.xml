@@ -68,4 +68,20 @@
         -->
         <version>1.0</version>
     </hal>
+     <hal format="hidl" optional="true">
+        <name>vendor.google.google_battery</name>
+        <version>1.1</version>
+        <interface>
+            <name>IGoogleBattery</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.qti.hardware.cacert</name>
+        <version>1.0</version>
+        <interface>
+            <name>IService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
